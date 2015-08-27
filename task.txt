@@ -1,0 +1,22 @@
+распарсить файлы из https://www.dropbox.com/s/g2zsvrok2cib6my/Ruby%20test%20task.zip?dl=0
+Имя файла - это <id счета>_<тип>_<дата>
+Это не конечный набор и могут быть файлы с названиями не соответствующими этим и их нужно игнорить
+Сгруппировать и вывести на экран:
+<id счета>
+  <дата>
+    <тип в порядке [account, activity, position, security]>
+Т.е. должно получиться что-то вроде
+U79014
+  2015-01-12
+    account 
+    activity
+    position
+    security
+  2015-01-13
+    account 
+    activity
+    position
+    security
+  ...
+U6342
+  ...
