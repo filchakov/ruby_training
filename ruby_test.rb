@@ -14,7 +14,7 @@ Dir.glob("*txt").sort.each { |f|
 	
 	if ALLOW_TYPE_REPORT.include? type_report
 		tree[account][date] = [] if tree[account][date] == {}
-		tree[account][date].push(type_report).sort!
+		tree[account][date].push(type_report)
 	end
 }
 
